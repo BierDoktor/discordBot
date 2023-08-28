@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@types/node": "^20.5.6",
+    "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
@@ -14,7 +15,8 @@
   "version": "1.0.0",
   "main": "app.ts",
   "scripts": {
-    "start": "ts-node src/bot.ts"
+    "start": "ts-node src/bot.ts",
+    "dev": "nodemon src/bot.ts"
   },
   "author": "",
   "license": "ISC",
